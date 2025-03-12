@@ -11,7 +11,9 @@ var allMsgs = [
     { "pseudo": "Charles", "date": new Date().toLocaleString(), "msg": "CentraleSupelec Forever" }
 ];
 
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 
 // Pour s'assurer que l'on peut faire des appels AJAX au serveur
 app.use(function(req, res, next) {
