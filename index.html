@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Dépôt de Messages</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+    <header>
+        <h1>Déposez vos messages</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Configuration du serveur</h2>
+            <label for="server-url">URL du serveur :</label>
+            <input type="text" id="server-url" placeholder="https://2d07c363-e668-4312-a05a-097b194667c6-00-2cn3zhsu5rz6c.riker.replit.dev">
+            <button id="save-url">Sauvegarder</button>
+        </section>
+        
+        <section>
+            <h2>Messages récents</h2>
+            <ul id="messages-list"></ul>
+        </section>
+
+        <section>
+            <h2>Postez un message</h2>
+            <input type="text" id="pseudo" placeholder="Votre pseudo">
+            <textarea id="new-message" placeholder="Écrivez votre message ici..."></textarea>
+            <button id="submit-message">Envoyer</button>
+        </section>
+
+        <section>
+            <button id="update-messages">Mettre à jour</button>
+            <button id="toggle-theme">Changer de style</button>
+        </section>
+    </main>
 </body>
+<script src="script.js"></script>
 
 </html>
