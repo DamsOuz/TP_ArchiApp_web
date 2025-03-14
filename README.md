@@ -8,6 +8,10 @@ Les liens du déploiement sont les suivants :
 - Pour la page web visible par le client : https://tp-archiapp-web-1.onrender.com
 - Pour le serveur : https://tp-archiapp-web.onrender.com
 
+Les liens des projets Replit :
+- Pour la page web visible par le client : https://replit.com/@ouzilloudam/TP-ArchiApp?v=1#index.html
+- Pour le serveur : https://replit.com/@ouzilloudam/MessageBoard?v=1#index.js
+
 Comment vérifier le fonctionnement du code :
 
 - Lorsque l'on clique sur le lien de la page web visible par le client (https://tp-archiapp-web-1.onrender.com), si en haut dans "URL du serveur" il y a autre chose que
