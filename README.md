@@ -18,3 +18,7 @@ puis que nous appuyons sur "Sauvegarder", nous sommes censés récupérer les me
 S'il manque au moins l'un des deux, un pop up d'erreur avec le message "Veuillez entrer un pseudo et un message !" apparaît. Sinon, cela envoie bien le message sur le serveur.
 
 - Il est possible de changer le thème de couleurs de la page en appuyant sur le bouton "Changer de style" à n'importe quel moment. Cela permet de switch entre un dark-mode et le mode normal.
+
+- Les commandes indiquées dans le TP sont toutes possibles : une fois sur la page du serveur (https://tp-archiapp-web.onrender.com), on peut ajouter du texte à la fin de l'URL pour
+obtenir certains comportements. Par exemple : ajouter "/msg/get/index du message" (exemple : https://tp-archiapp-web.onrender.com/msg/get/0) pour récupérer le message de l'index indiqué.
+On peut aussi ajouter "/cpt/query" pour obtenir la valeur d'un compteur, "/cpt/inc" pour l'incrémenter de 1, et "/cpt/inc?v=XXX" pour incrémenter de XXX (par exemple 020 pour incrémenter de 20). On peut enfin ajouter "/msg/getAll" pour obtenir tous les messages, "/msg/post/contenu du message" pour ajouter un message, "/msg/nber" pour avoir le nombre de messages total, et "/msg/del/index du message" pour supprimer le message de l'indice indiqué.
