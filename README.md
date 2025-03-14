@@ -11,7 +11,7 @@ Les liens du déploiement sont les suivants :
 Les liens des projets Replit :
 - Pour la page web visible par le client : https://replit.com/@ouzilloudam/TP-ArchiApp?v=1#index.html
 - Pour le serveur : https://replit.com/@ouzilloudam/MessageBoard?v=1#index.js
-ATTENTION : ceux-ci ne sont pas 100% à jour ("You've used up all your Development time", je ne peux plus utiliser Replit gratuitement) donc mieux vaut se référer à ce git.
+- ATTENTION : ceux-ci ne sont pas 100% à jour ("You've used up all your Development time", je ne peux plus utiliser Replit gratuitement) donc mieux vaut se référer à ce git.
 
 Comment vérifier le fonctionnement du code :
 
