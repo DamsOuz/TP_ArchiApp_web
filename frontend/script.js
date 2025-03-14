@@ -21,7 +21,7 @@ console.log("Ajout de 1 à chaque élément :", applique(function(n) { return n 
 
 // ------------------------------------------------------------------------
 
-let userURL = localStorage.getItem("serverURL") || "https://2d07c363-e668-4312-a05a-097b194667c6-00-2cn3zhsu5rz6c.riker.replit.dev";
+let userURL = localStorage.getItem("serverURL") || "https://tp-archiapp-web.onrender.com";
 
 document.getElementById("server-url").value = userURL;
 
